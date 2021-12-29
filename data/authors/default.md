@@ -1,7 +1,8 @@
 ---
 name: Vannaravuth Yo
 # avatar: /static/images/avatar.png
-avatar: https://gravatar.com/avatar/3f9ea148ade811b13cc6adac470463d6?s=400&d=robohash&r=x
+avatar: /static/images/ravuthz.jpg
+# avatar: https://gravatar.com/avatar/3f9ea148ade811b13cc6adac470463d6?s=400&d=robohash&r=x
 occupation: Senior Developer
 company: IFL
 email: ravuthz@gmail.com
