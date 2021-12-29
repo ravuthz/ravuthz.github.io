@@ -1,7 +1,8 @@
 {
-  "name": "tailwind-nextjs-starter-blog",
-  "version": "1.4.1",
+  "name": "ravuthz-nextjs-starter-blog",
+  "version": "1.0.0",
   "private": true,
+  "author": "Vannaravuth Yo <ravuthz@gmail.com> (https://ravuthz.github.io)",
   "scripts": {
     "start": "cross-env SOCKET=true node ./scripts/next-remote-watch.js ./data",
     "dev": "next dev",
