@@ -12,6 +12,7 @@ const siteMetadata = require('../data/siteMetadata')
     'public/tags/**/*.xml',
     '!pages/_*.js',
     '!pages/api',
+    '!data/blog/.git',
   ])
 
   const sitemap = `

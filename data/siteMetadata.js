@@ -28,7 +28,7 @@ const siteMetadata = {
   newsletter: {
     // supports mailchimp, buttondown, convertkit, klaviyo
     // Please add your .env file and modify it according to your selection
-    provider: 'buttondown',
+    provider: '',
   },
   comment: {
     // Select a provider and use the environment variables associated to it
@@ -47,7 +47,7 @@ const siteMetadata = {
       metadata: '0',
       // theme example: light, dark, dark_dimmed, dark_high_contrast
       // transparent_dark, preferred_color_scheme, custom
-      theme: 'light',
+      theme: 'dark_dimmed',
       // theme when dark mode
       darkTheme: 'transparent_dark',
       // If the theme option above is set to 'custom`

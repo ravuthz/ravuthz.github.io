@@ -9,11 +9,13 @@ const DEFAULT_LAYOUT = 'PostLayout'
 export async function getStaticPaths() {
   const posts = getFiles('blog')
   return {
-    paths: posts.map((p) => ({
-      params: {
-        slug: formatSlug(p).split('/'),
-      },
-    })),
+    paths: posts
+      .filter((item) => item !== '.git')
+      .map((p) => ({
+        params: {
+          slug: formatSlug(p).split('/'),
+        },
+      })),
     fallback: false,
   }
 }
