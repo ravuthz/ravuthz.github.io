@@ -1,0 +1,77 @@
+{
+  "pageProps": {
+    "post": {
+      "mdxSource": "var Component=(()=>{var c=Object.create;var i=Object.defineProperty;var h=Object.getOwnPropertyDescriptor;var d=Object.getOwnPropertyNames;var p=Object.getPrototypeOf,u=Object.prototype.hasOwnProperty;var o=a=>i(a,\"__esModule\",{value:!0});var m=(a,t)=>()=>(t||a((t={exports:{}}).exports,t),t.exports),g=(a,t)=>{o(a);for(var s in t)i(a,s,{get:t[s],enumerable:!0})},y=(a,t,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let e of d(t))!u.call(a,e)&&e!==\"default\"&&i(a,e,{get:()=>t[e],enumerable:!(s=h(t,e))||s.enumerable});return a},w=a=>y(o(i(a!=null?c(p(a)):{},\"default\",a&&a.__esModule&&\"default\"in a?{get:()=>a.default,enumerable:!0}:{value:a,enumerable:!0})),a);var l=m((k,r)=>{r.exports=_jsx_runtime});var b={};g(b,{default:()=>N,frontmatter:()=>f});var n=w(l()),f={title:\"Python Dependency Manger\",date:new Date(1640154856e3),draft:!1,featured:!1,categories:[\"Python\"],series:\"Python Series\",tags:[\"Python\"],summary:\"Using Peotry for Python Dependency Management\"};function x(a={}){let{wrapper:t}=a.components||{};return t?(0,n.jsx)(t,Object.assign({},a,{children:(0,n.jsx)(s,{})})):s();function s(){let e=Object.assign({h1:\"h1\",a:\"a\",span:\"span\",p:\"p\",h2:\"h2\",pre:\"pre\",code:\"code\"},a.components);return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsxs)(e.h1,{id:\"python-dependency-management-with-peotry\",children:[(0,n.jsx)(e.a,{\"aria-hidden\":\"true\",tabIndex:\"-1\",href:\"#python-dependency-management-with-peotry\",children:(0,n.jsx)(e.span,{className:\"icon icon-link\"})}),\"Python Dependency Management with Peotry\"]}),`\n`,(0,n.jsx)(e.p,{children:`Poetry helps us declare, manage and install dependencies of Python projects, ensuring you have the right stack everywhere.\nIt's supports Python version 3.6+.`}),`\n`,(0,n.jsxs)(e.h1,{id:\"installation\",children:[(0,n.jsx)(e.a,{\"aria-hidden\":\"true\",tabIndex:\"-1\",href:\"#installation\",children:(0,n.jsx)(e.span,{className:\"icon icon-link\"})}),\"Installation\"]}),`\n`,(0,n.jsxs)(e.p,{children:[\"The complete documentation is available on the \",(0,n.jsx)(e.a,{href:\"https://python-poetry.org/docs/#installation\",children:\"official website\"}),\".\"]}),`\n`,(0,n.jsxs)(e.h2,{id:\"linux--osx--bash-on-windows--wsl--instructions\",children:[(0,n.jsx)(e.a,{\"aria-hidden\":\"true\",tabIndex:\"-1\",href:\"#linux--osx--bash-on-windows--wsl--instructions\",children:(0,n.jsx)(e.span,{className:\"icon icon-link\"})}),\"Linux / OSX / Bash on Windows ( WSL ) instructions\"]}),`\n`,(0,n.jsx)(e.pre,{className:\"language-bash\",children:(0,n.jsx)(e.code,{className:\"language-bash code-highlight\",children:(0,n.jsxs)(e.span,{className:\"code-line\",children:[(0,n.jsx)(e.span,{className:\"token function\",children:\"curl\"}),\" -sSL https://install.python-poetry.org \",(0,n.jsx)(e.span,{className:\"token operator\",children:\"|\"}),` python3 -\n`]})})}),`\n`,(0,n.jsxs)(e.h2,{id:\"window---powershell-instructions\",children:[(0,n.jsx)(e.a,{\"aria-hidden\":\"true\",tabIndex:\"-1\",href:\"#window---powershell-instructions\",children:(0,n.jsx)(e.span,{className:\"icon icon-link\"})}),\"Window - Powershell instructions\"]}),`\n`,(0,n.jsx)(e.pre,{className:\"language-bash\",children:(0,n.jsx)(e.code,{className:\"language-bash code-highlight\",children:(0,n.jsxs)(e.span,{className:\"code-line\",children:[(0,n.jsx)(e.span,{className:\"token punctuation\",children:\"(\"}),\"Invoke-WebRequest -Uri https://install.python-poetry.org -UseBasicParsing\",(0,n.jsx)(e.span,{className:\"token punctuation\",children:\")\"}),\".Content \",(0,n.jsx)(e.span,{className:\"token operator\",children:\"|\"}),` python -\n`]})})}),`\n`,(0,n.jsx)(e.pre,{className:\"language-bash\",children:(0,n.jsx)(e.code,{className:\"language-bash code-highlight\",children:(0,n.jsxs)(e.span,{className:\"code-line\",children:[\"peotry \",(0,n.jsx)(e.span,{className:\"token function\",children:\"install\"}),` prettytable\n`]})})})]})}}var N=x;return b;})();\n;return Component;",
+      "toc": [
+        {
+          "value": "Python Dependency Management with Peotry",
+          "url": "#python-dependency-management-with-peotry",
+          "depth": 1
+        },
+        { "value": "Installation", "url": "#installation", "depth": 1 },
+        {
+          "value": "Linux / OSX / Bash on Windows ( WSL ) instructions",
+          "url": "#linux--osx--bash-on-windows--wsl--instructions",
+          "depth": 2
+        },
+        {
+          "value": "Window - Powershell instructions",
+          "url": "#window---powershell-instructions",
+          "depth": 2
+        }
+      ],
+      "frontMatter": {
+        "readingTime": { "text": "1 min read", "minutes": 0.615, "time": 36900, "words": 123 },
+        "slug": "python/python-dependency-manger",
+        "fileName": "python/python-dependency-manger.md",
+        "title": "Python Dependency Manger",
+        "date": "2021-12-22T06:34:16.000Z",
+        "draft": false,
+        "featured": false,
+        "categories": ["Python"],
+        "series": "Python Series",
+        "tags": ["Python"],
+        "summary": "Using Peotry for Python Dependency Management"
+      }
+    },
+    "authorDetails": [
+      {
+        "readingTime": { "text": "1 min read", "minutes": 0.5, "time": 30000, "words": 100 },
+        "slug": ["default"],
+        "fileName": "default.md",
+        "name": "Vannaravuth Yo",
+        "avatar": "/static/images/ravuthz.jpg",
+        "occupation": "Senior Developer",
+        "company": "IFL",
+        "email": "ravuthz@gmail.com",
+        "github": "https://github.com/ravuthz",
+        "twitter": "https://twitter.com/Vutyo",
+        "linkedin": "https://www.linkedin.com/in/vannaravuth-yo",
+        "date": null
+      }
+    ],
+    "prev": {
+      "title": "Python 3.9",
+      "date": "2021-12-21T16:24:07.000Z",
+      "draft": false,
+      "featured": false,
+      "categories": ["Python"],
+      "series": "Python Series",
+      "tags": ["Python", "Python-3.9", "NewRealease"],
+      "summary": "What's new in Python 3.9?",
+      "slug": "python/python-3.9"
+    },
+    "next": {
+      "title": "Linux File Download Cli",
+      "date": "2021-12-22T07:24:02.000Z",
+      "draft": false,
+      "featured": false,
+      "categories": ["Linux"],
+      "series": "Linux Series",
+      "tags": ["Linux", "wget"],
+      "summary": "Install and using wget in any Linux OS",
+      "slug": "linux/linux-file-download-cli"
+    }
+  },
+  "__N_SSG": true
+}

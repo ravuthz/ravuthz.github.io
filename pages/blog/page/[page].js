@@ -4,8 +4,16 @@ import { getAllFilesFrontMatter } from '@/lib/mdx'
 import ListLayout from '@/layouts/ListLayout'
 import { POSTS_PER_PAGE } from '../../blog'
 
+// eslint-disable-next-line no-useless-escape
+const regex = /[\/.](git)$/gm
+
+const allPosts = async () => {
+  const posts = await getAllFilesFrontMatter('blog')
+  return posts.filter((item) => !regex.test(item))
+}
+
 export async function getStaticPaths() {
-  const totalPosts = await getAllFilesFrontMatter('blog')
+  const totalPosts = await allPosts()
   const totalPages = Math.ceil(totalPosts.length / POSTS_PER_PAGE)
   const paths = Array.from({ length: totalPages }, (_, i) => ({
     params: { page: (i + 1).toString() },
@@ -21,7 +29,7 @@ export async function getStaticProps(context) {
   const {
     params: { page },
   } = context
-  const posts = await getAllFilesFrontMatter('blog')
+  const posts = await allPosts()
   const pageNumber = parseInt(page)
   const initialDisplayPosts = posts.slice(
     POSTS_PER_PAGE * (pageNumber - 1),

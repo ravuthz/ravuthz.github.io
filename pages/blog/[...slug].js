@@ -6,11 +6,14 @@ import { formatSlug, getAllFilesFrontMatter, getFileBySlug, getFiles } from '@/l
 
 const DEFAULT_LAYOUT = 'PostLayout'
 
+// eslint-disable-next-line no-useless-escape
+const regex = /[\/.](git)$/gm
+
 export async function getStaticPaths() {
   const posts = getFiles('blog')
   return {
     paths: posts
-      .filter((item) => item !== '.git')
+      .filter((item) => !regex.test(item))
       .map((p) => ({
         params: {
           slug: formatSlug(p).split('/'),
@@ -21,7 +24,8 @@ export async function getStaticPaths() {
 }
 
 export async function getStaticProps({ params }) {
-  const allPosts = await getAllFilesFrontMatter('blog')
+  const blog = await getAllFilesFrontMatter('blog')
+  const allPosts = blog.filter((item) => !regex.test(item))
   const postIndex = allPosts.findIndex((post) => formatSlug(post.slug) === params.slug.join('/'))
   const prev = allPosts[postIndex + 1] || null
   const next = allPosts[postIndex - 1] || null
@@ -42,7 +46,8 @@ export async function getStaticProps({ params }) {
   return { props: { post, authorDetails, prev, next } }
 }
 
-export default function Blog({ post, authorDetails, prev, next }) {
+export default function Blog(props) {
+  const { post, authorDetails, prev, next } = props
   const { mdxSource, toc, frontMatter } = post
 
   return (

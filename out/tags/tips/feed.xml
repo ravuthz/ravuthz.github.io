@@ -1,0 +1,24 @@
+
+  <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+      <title>Ravuthz Blog</title>
+      <link>https://ravuthz.github.io/blog</link>
+      <description>A blog created with Next.js and Tailwind.css</description>
+      <language>en-us</language>
+      <managingEditor>ravuthz@gmail.com (Ravuthz)</managingEditor>
+      <webMaster>ravuthz@gmail.com (Ravuthz)</webMaster>
+      <lastBuildDate>Tue, 21 Dec 2021 16:23:05 GMT</lastBuildDate>
+      <atom:link href="https://ravuthz.github.io/tags/tips/feed.xml" rel="self" type="application/rss+xml"/>
+      
+  <item>
+    <guid>https://ravuthz.github.io/blog/javascript/javascript-tips</guid>
+    <title>Js Tips</title>
+    <link>https://ravuthz.github.io/blog/javascript/javascript-tips</link>
+    <description>Some Tips for JavaScript</description>
+    <pubDate>Tue, 21 Dec 2021 16:23:05 GMT</pubDate>
+    <author>ravuthz@gmail.com (Ravuthz)</author>
+    <category>JavaScript</category><category>Tips</category>
+  </item>
+
+    </channel>
+  </rss>

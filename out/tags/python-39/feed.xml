@@ -1,0 +1,24 @@
+
+  <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+      <title>Ravuthz Blog</title>
+      <link>https://ravuthz.github.io/blog</link>
+      <description>A blog created with Next.js and Tailwind.css</description>
+      <language>en-us</language>
+      <managingEditor>ravuthz@gmail.com (Ravuthz)</managingEditor>
+      <webMaster>ravuthz@gmail.com (Ravuthz)</webMaster>
+      <lastBuildDate>Tue, 21 Dec 2021 16:24:07 GMT</lastBuildDate>
+      <atom:link href="https://ravuthz.github.io/tags/python-39/feed.xml" rel="self" type="application/rss+xml"/>
+      
+  <item>
+    <guid>https://ravuthz.github.io/blog/python/python-3.9</guid>
+    <title>Python 3.9</title>
+    <link>https://ravuthz.github.io/blog/python/python-3.9</link>
+    <description>What&#39;s new in Python 3.9?</description>
+    <pubDate>Tue, 21 Dec 2021 16:24:07 GMT</pubDate>
+    <author>ravuthz@gmail.com (Ravuthz)</author>
+    <category>Python</category><category>Python-3.9</category><category>NewRealease</category>
+  </item>
+
+    </channel>
+  </rss>

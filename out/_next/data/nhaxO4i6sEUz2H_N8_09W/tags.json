@@ -1,0 +1,18 @@
+{
+  "pageProps": {
+    "tags": {
+      "javascript": 1,
+      "tips": 1,
+      "linux": 1,
+      "wget": 1,
+      "nextjs": 1,
+      "blog": 2,
+      "tailwind": 1,
+      "python": 2,
+      "python-39": 1,
+      "newrealease": 1,
+      "site": 1
+    }
+  },
+  "__N_SSG": true
+}

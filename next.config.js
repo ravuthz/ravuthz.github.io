@@ -1,3 +1,5 @@
+const withPlugins = require('next-compose-plugins')
+const optimizedImages = require('next-optimized-images')
 const withBundleAnalyzer = require('@next/bundle-analyzer')({
   enabled: process.env.ANALYZE === 'true',
 })
@@ -52,7 +54,7 @@ const securityHeaders = [
   },
 ]
 
-module.exports = withBundleAnalyzer({
+const withBundleAnalyzerPlugin = withBundleAnalyzer({
   reactStrictMode: true,
   pageExtensions: ['js', 'jsx', 'md', 'mdx'],
   eslint: {
@@ -101,3 +103,22 @@ module.exports = withBundleAnalyzer({
     return config
   },
 })
+
+const nextConfig = {
+  images: {
+    disableStaticImages: true,
+  },
+}
+
+module.exports = withPlugins([
+  [
+    optimizedImages,
+    {
+      /* config for next-optimized-images */
+      // optimisation disabled by default, to enable check https://github.com/cyrilwanner/next-optimized-images
+      optimizeImages: false,
+    },
+  ],
+  withBundleAnalyzerPlugin,
+  nextConfig,
+])
