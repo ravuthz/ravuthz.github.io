@@ -24,7 +24,7 @@
     },
     "authorDetails": [
       {
-        "readingTime": { "text": "1 min read", "minutes": 0.5, "time": 30000, "words": 100 },
+        "readingTime": { "text": "1 min read", "minutes": 0.52, "time": 31200, "words": 104 },
         "slug": ["default"],
         "fileName": "default.md",
         "name": "Vannaravuth Yo",

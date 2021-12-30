@@ -1,0 +1,23 @@
+{
+  "pageProps": {
+    "authorDetails": {
+      "mdxSource": "var Component=(()=>{var s=Object.create;var o=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var u=Object.getPrototypeOf,m=Object.prototype.hasOwnProperty;var a=t=>o(t,\"__esModule\",{value:!0});var p=(t,r)=>()=>(r||t((r={exports:{}}).exports,r),r.exports),g=(t,r)=>{a(t);for(var i in r)o(t,i,{get:r[i],enumerable:!0})},v=(t,r,i)=>{if(r&&typeof r==\"object\"||typeof r==\"function\")for(let e of h(r))!m.call(t,e)&&e!==\"default\"&&o(t,e,{get:()=>r[e],enumerable:!(i=d(r,e))||i.enumerable});return t},j=t=>v(a(o(t!=null?s(u(t)):{},\"default\",t&&t.__esModule&&\"default\"in t?{get:()=>t.default,enumerable:!0}:{value:t,enumerable:!0})),t);var c=p((_,l)=>{l.exports=_jsx_runtime});var f={};g(f,{default:()=>b,frontmatter:()=>x});var n=j(c()),x={name:\"Vannaravuth Yo\",avatar:\"/static/images/ravuthz.jpg\",occupation:\"Senior Developer\",company:\"IFL\",email:\"ravuthz@gmail.com\",github:\"https://github.com/ravuthz\",twitter:\"https://twitter.com/Vutyo\",linkedin:\"https://www.linkedin.com/in/vannaravuth-yo\"};function y(t={}){let{wrapper:r}=t.components||{};return r?(0,n.jsx)(r,Object.assign({},t,{children:(0,n.jsx)(i,{})})):i();function i(){let e=Object.assign({p:\"p\",strong:\"strong\",em:\"em\",ul:\"ul\",li:\"li\"},t.components);return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsxs)(e.p,{children:[\"I'm \",(0,n.jsx)(e.strong,{children:\"Vannaravuth Yo\"}),\". I'm a \",(0,n.jsx)(e.em,{children:\"senior developer\"}),\" at IFL.\"]}),`\n`,(0,n.jsxs)(e.ul,{children:[`\n`,(0,n.jsx)(e.li,{children:\"Working DevOps deploy and monitor all systems.\"}),`\n`,(0,n.jsx)(e.li,{children:\"Leading a small team to develop core project for company.\"}),`\n`,(0,n.jsx)(e.li,{children:\"Working on both frontend and backend\"}),`\n`]}),`\n`,(0,n.jsx)(e.p,{children:\"Technologies which I used:\"}),`\n`,(0,n.jsxs)(e.ul,{children:[`\n`,(0,n.jsxs)(e.li,{children:[\"FrontEnd\",`\n`,(0,n.jsxs)(e.ul,{children:[`\n`,(0,n.jsx)(e.li,{children:\"Angular, React, Vue, jquery, bootstrap, ant-design, vuetify ...\"}),`\n`]}),`\n`]}),`\n`,(0,n.jsxs)(e.li,{children:[\"Backend\",`\n`,(0,n.jsxs)(e.ul,{children:[`\n`,(0,n.jsx)(e.li,{children:\"Java, Spring Boot, NodeJs, Express, KoaJs, PHP, Laravel, Codeignitor, ...\"}),`\n`]}),`\n`]}),`\n`,(0,n.jsxs)(e.li,{children:[\"Database\",`\n`,(0,n.jsxs)(e.ul,{children:[`\n`,(0,n.jsx)(e.li,{children:\"PostgreSql, MySQL, MongoDB\"}),`\n`]}),`\n`]}),`\n`]})]})}}var b=y;return f;})();\n;return Component;",
+      "toc": [],
+      "frontMatter": {
+        "readingTime": { "text": "1 min read", "minutes": 0.52, "time": 31200, "words": 104 },
+        "slug": ["default"],
+        "fileName": "default.md",
+        "name": "Vannaravuth Yo",
+        "avatar": "/static/images/ravuthz.jpg",
+        "occupation": "Senior Developer",
+        "company": "IFL",
+        "email": "ravuthz@gmail.com",
+        "github": "https://github.com/ravuthz",
+        "twitter": "https://twitter.com/Vutyo",
+        "linkedin": "https://www.linkedin.com/in/vannaravuth-yo",
+        "date": null
+      }
+    }
+  },
+  "__N_SSG": true
+}
