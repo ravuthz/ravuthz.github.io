@@ -1,0 +1,18 @@
+{
+  "pageProps": {
+    "posts": [
+      {
+        "title": "NextJs Create Blog Post with Starter Template",
+        "date": "2021-12-30T02:26:37.018Z",
+        "tags": ["NextJs", "Blog", "Tailwind"],
+        "draft": false,
+        "summary": "Create NextJs Blog Post with Tailwind NextJs Starter Blog",
+        "images": [],
+        "layout": "PostLayout",
+        "slug": "nextjs/nextjs-create-blog-post-with-starter-template"
+      }
+    ],
+    "tag": "nextjs"
+  },
+  "__N_SSG": true
+}

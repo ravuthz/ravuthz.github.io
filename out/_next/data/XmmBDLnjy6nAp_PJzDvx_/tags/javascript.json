@@ -1,0 +1,19 @@
+{
+  "pageProps": {
+    "posts": [
+      {
+        "title": "Js Tips",
+        "date": "2021-12-21T16:23:05.000Z",
+        "draft": false,
+        "featured": false,
+        "categories": ["JavaScript"],
+        "series": "JavaScript Series",
+        "tags": ["JavaScript", "Tips"],
+        "summary": "Some Tips for JavaScript",
+        "slug": "javascript/javascript-tips"
+      }
+    ],
+    "tag": "javascript"
+  },
+  "__N_SSG": true
+}

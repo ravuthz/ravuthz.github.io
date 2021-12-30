@@ -1,0 +1,19 @@
+{
+  "pageProps": {
+    "posts": [
+      {
+        "title": "Linux File Download Cli",
+        "date": "2021-12-22T07:24:02.000Z",
+        "draft": false,
+        "featured": false,
+        "categories": ["Linux"],
+        "series": "Linux Series",
+        "tags": ["Linux", "wget"],
+        "summary": "Install and using wget in any Linux OS",
+        "slug": "linux/linux-file-download-cli"
+      }
+    ],
+    "tag": "wget"
+  },
+  "__N_SSG": true
+}
