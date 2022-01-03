@@ -45,11 +45,15 @@
   </url>
 
   <url>
-    <loc>https://ravuthz.github.io/blog/python/python-dependency-manger</loc>
+    <loc>https://ravuthz.github.io/blog/python/python-dependency-management-tools</loc>
   </url>
 
   <url>
     <loc>https://ravuthz.github.io/tags/blog</loc>
+  </url>
+
+  <url>
+    <loc>https://ravuthz.github.io/tags/dependency</loc>
   </url>
 
   <url>
@@ -61,11 +65,15 @@
   </url>
 
   <url>
-    <loc>https://ravuthz.github.io/tags/newrealease</loc>
+    <loc>https://ravuthz.github.io/tags/management</loc>
   </url>
 
   <url>
     <loc>https://ravuthz.github.io/tags/nextjs</loc>
+  </url>
+
+  <url>
+    <loc>https://ravuthz.github.io/tags/newrealease</loc>
   </url>
 
   <url>
@@ -86,6 +94,10 @@
 
   <url>
     <loc>https://ravuthz.github.io/tags/tips</loc>
+  </url>
+
+  <url>
+    <loc>https://ravuthz.github.io/tags/tools</loc>
   </url>
 
   <url>

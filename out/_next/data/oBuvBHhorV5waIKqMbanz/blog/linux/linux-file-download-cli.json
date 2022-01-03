@@ -1,0 +1,77 @@
+{
+  "pageProps": {
+    "post": {
+      "mdxSource": "var Component=(()=>{var d=Object.create;var s=Object.defineProperty;var r=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var m=Object.getPrototypeOf,u=Object.prototype.hasOwnProperty;var c=a=>s(a,\"__esModule\",{value:!0});var p=(a,l)=>()=>(l||a((l={exports:{}}).exports,l),l.exports),g=(a,l)=>{c(a);for(var i in l)s(a,i,{get:l[i],enumerable:!0})},N=(a,l,i)=>{if(l&&typeof l==\"object\"||typeof l==\"function\")for(let e of h(l))!u.call(a,e)&&e!==\"default\"&&s(a,e,{get:()=>l[e],enumerable:!(i=r(l,e))||i.enumerable});return a},f=a=>N(c(s(a!=null?d(m(a)):{},\"default\",a&&a.__esModule&&\"default\"in a?{get:()=>a.default,enumerable:!0}:{value:a,enumerable:!0})),a);var o=p((L,t)=>{t.exports=_jsx_runtime});var b={};g(b,{default:()=>k,frontmatter:()=>w});var n=f(o()),w={title:\"Linux File Download Cli\",date:new Date(1640157842e3),draft:!1,featured:!1,categories:[\"Linux\"],series:\"Linux Series\",tags:[\"Linux\",\"wget\"],summary:\"Install and using wget in any Linux OS\"};function x(a={}){let{wrapper:l}=a.components||{};return l?(0,n.jsx)(l,Object.assign({},a,{children:(0,n.jsx)(i,{})})):i();function i(){let e=Object.assign({h1:\"h1\",a:\"a\",span:\"span\",h2:\"h2\",pre:\"pre\",code:\"code\",p:\"p\",strong:\"strong\"},a.components);return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsxs)(e.h1,{id:\"download-file-with-cli-on-linux\",children:[(0,n.jsx)(e.a,{\"aria-hidden\":\"true\",tabIndex:\"-1\",href:\"#download-file-with-cli-on-linux\",children:(0,n.jsx)(e.span,{className:\"icon icon-link\"})}),\"Download file with cli on Linux\"]}),`\n`,(0,n.jsxs)(e.h2,{id:\"install-wget-on-linux\",children:[(0,n.jsx)(e.a,{\"aria-hidden\":\"true\",tabIndex:\"-1\",href:\"#install-wget-on-linux\",children:(0,n.jsx)(e.span,{className:\"icon icon-link\"})}),\"Install wget on Linux\"]}),`\n`,(0,n.jsx)(e.pre,{className:\"language-bash\",children:(0,n.jsxs)(e.code,{className:\"language-bash code-highlight\",children:[(0,n.jsxs)(e.span,{className:\"code-line\",children:[(0,n.jsx)(e.span,{className:\"token comment\",children:\"# On Ubuntu, Debian and Mint\"}),`\n`]}),(0,n.jsxs)(e.span,{className:\"code-line\",children:[(0,n.jsx)(e.span,{className:\"token function\",children:\"sudo\"}),\" \",(0,n.jsx)(e.span,{className:\"token function\",children:\"apt\"}),\" \",(0,n.jsx)(e.span,{className:\"token function\",children:\"install\"}),\" \",(0,n.jsx)(e.span,{className:\"token function\",children:\"wget\"}),` -y\n`]}),(0,n.jsx)(e.span,{className:\"code-line\",children:`\n`}),(0,n.jsxs)(e.span,{className:\"code-line\",children:[(0,n.jsx)(e.span,{className:\"token comment\",children:\"# On CentOS / RHEL / Fedora and Rocky Linux / AlmaLinux\"}),`\n`]}),(0,n.jsxs)(e.span,{className:\"code-line\",children:[(0,n.jsx)(e.span,{className:\"token function\",children:\"sudo\"}),\" yum \",(0,n.jsx)(e.span,{className:\"token function\",children:\"install\"}),\" \",(0,n.jsx)(e.span,{className:\"token function\",children:\"wget\"}),` -y\n`]}),(0,n.jsx)(e.span,{className:\"code-line\",children:`\n`}),(0,n.jsxs)(e.span,{className:\"code-line\",children:[(0,n.jsx)(e.span,{className:\"token comment\",children:\"# On Gentoo Linux\"}),`\n`]}),(0,n.jsxs)(e.span,{className:\"code-line\",children:[(0,n.jsx)(e.span,{className:\"token function\",children:\"sudo\"}),` emerge -a net-misc/wget\n`]}),(0,n.jsx)(e.span,{className:\"code-line\",children:`\n`}),(0,n.jsxs)(e.span,{className:\"code-line\",children:[(0,n.jsx)(e.span,{className:\"token comment\",children:\"# On Arch Linux\"}),`\n`]}),(0,n.jsxs)(e.span,{className:\"code-line\",children:[(0,n.jsx)(e.span,{className:\"token function\",children:\"sudo\"}),\" pacman -Sy \",(0,n.jsx)(e.span,{className:\"token function\",children:\"wget\"}),`\n`]}),(0,n.jsx)(e.span,{className:\"code-line\",children:`\n`}),(0,n.jsxs)(e.span,{className:\"code-line\",children:[(0,n.jsx)(e.span,{className:\"token comment\",children:\"# On OpenSUSE\"}),`\n`]}),(0,n.jsxs)(e.span,{className:\"code-line\",children:[(0,n.jsx)(e.span,{className:\"token function\",children:\"sudo\"}),\" \",(0,n.jsx)(e.span,{className:\"token function\",children:\"zypper\"}),\" \",(0,n.jsx)(e.span,{className:\"token function\",children:\"install\"}),\" \",(0,n.jsx)(e.span,{className:\"token function\",children:\"wget\"}),`\n`]})]})}),`\n`,(0,n.jsx)(e.p,{children:(0,n.jsx)(e.strong,{children:\"NOTE:\"})}),`\n`,(0,n.jsxs)(e.p,{children:[\"The \",(0,n.jsx)(e.code,{children:\"-y\"}),\" option used to prevent confirmation propts before installing any package.\"]}),`\n`,(0,n.jsxs)(e.h2,{id:\"wget-download-file\",children:[(0,n.jsx)(e.a,{\"aria-hidden\":\"true\",tabIndex:\"-1\",href:\"#wget-download-file\",children:(0,n.jsx)(e.span,{className:\"icon icon-link\"})}),\"wget Download file\"]}),`\n`,(0,n.jsx)(e.pre,{className:\"language-bash\",children:(0,n.jsx)(e.code,{className:\"language-bash code-highlight\",children:(0,n.jsxs)(e.span,{className:\"code-line\",children:[(0,n.jsx)(e.span,{className:\"token function\",children:\"wget\"}),` http://ftp.gnu.org/gnu/wget/wget2-2.0.0.tar.gz\n`]})})}),`\n`,(0,n.jsxs)(e.h2,{id:\"wget-download-file-with-custom-output\",children:[(0,n.jsx)(e.a,{\"aria-hidden\":\"true\",tabIndex:\"-1\",href:\"#wget-download-file-with-custom-output\",children:(0,n.jsx)(e.span,{className:\"icon icon-link\"})}),\"wget Download file with custom output\"]}),`\n`,(0,n.jsx)(e.pre,{className:\"language-bash\",children:(0,n.jsx)(e.code,{className:\"language-bash code-highlight\",children:(0,n.jsxs)(e.span,{className:\"code-line\",children:[(0,n.jsx)(e.span,{className:\"token function\",children:\"wget\"}),` -O wget.zip http://ftp.gnu.org/gnu/wget/wget2-2.0.0.tar.gz\n`]})})}),`\n`,(0,n.jsxs)(e.h2,{id:\"wget-download-mutiple-files-from-file-content\",children:[(0,n.jsx)(e.a,{\"aria-hidden\":\"true\",tabIndex:\"-1\",href:\"#wget-download-mutiple-files-from-file-content\",children:(0,n.jsx)(e.span,{className:\"icon icon-link\"})}),\"wget Download mutiple files from file content\"]}),`\n`,(0,n.jsx)(e.pre,{className:\"language-bash\",children:(0,n.jsxs)(e.code,{className:\"language-bash code-highlight\",children:[(0,n.jsxs)(e.span,{className:\"code-line\",children:[(0,n.jsx)(e.span,{className:\"token function\",children:\"cat\"}),` download-linux.txt\n`]}),(0,n.jsx)(e.span,{className:\"code-line\",children:`https://releases.ubuntu.com/20.04.3/ubuntu-20.04.3-desktop-amd64.iso\n`}),(0,n.jsx)(e.span,{className:\"code-line\",children:`https://download.rockylinux.org/pub/rocky/8/isos/x86_64/Rocky-8.5-x86_64-dvd1.iso\n`}),(0,n.jsx)(e.span,{className:\"code-line\",children:`https://cdimage.debian.org/debian-cd/current/amd64/iso-dvd/debian-11.2.0-amd64-DVD-1.iso\n`})]})}),`\n`,(0,n.jsx)(e.pre,{className:\"language-bash\",children:(0,n.jsx)(e.code,{className:\"language-bash code-highlight\",children:(0,n.jsxs)(e.span,{className:\"code-line\",children:[(0,n.jsx)(e.span,{className:\"token function\",children:\"wget\"}),` -i download-linux.txt\n`]})})}),`\n`,(0,n.jsxs)(\"details\",{open:!0,children:[(0,n.jsx)(\"summary\",{children:\"Table of Contents\"}),(0,n.jsxs)(\"ul\",{children:[(0,n.jsx)(\"li\",{children:(0,n.jsx)(\"a\",{href:\"#\",class:\"active\",children:\"Introduction\"})}),`\n`,(0,n.jsx)(\"li\",{children:(0,n.jsx)(\"a\",{href:\"/2/\",children:\"Body\"})}),`\n`,(0,n.jsx)(\"li\",{children:(0,n.jsx)(\"a\",{href:\"/3/\",children:\"Conclusion\"})})]})]})]})}}var k=x;return b;})();\n;return Component;",
+      "toc": [
+        {
+          "value": "Download file with cli on Linux",
+          "url": "#download-file-with-cli-on-linux",
+          "depth": 1
+        },
+        { "value": "Install wget on Linux", "url": "#install-wget-on-linux", "depth": 2 },
+        { "value": "wget Download file", "url": "#wget-download-file", "depth": 2 },
+        {
+          "value": "wget Download file with custom output",
+          "url": "#wget-download-file-with-custom-output",
+          "depth": 2
+        },
+        {
+          "value": "wget Download mutiple files from file content",
+          "url": "#wget-download-mutiple-files-from-file-content",
+          "depth": 2
+        }
+      ],
+      "frontMatter": {
+        "readingTime": { "text": "1 min read", "minutes": 0.96, "time": 57600, "words": 192 },
+        "slug": "linux/linux-file-download-cli",
+        "fileName": "linux/linux-file-download-cli.md",
+        "title": "Linux File Download Cli",
+        "date": "2021-12-22T07:24:02.000Z",
+        "draft": false,
+        "featured": false,
+        "categories": ["Linux"],
+        "series": "Linux Series",
+        "tags": ["Linux", "wget"],
+        "summary": "Install and using wget in any Linux OS"
+      }
+    },
+    "authorDetails": [
+      {
+        "readingTime": { "text": "1 min read", "minutes": 0.52, "time": 31200, "words": 104 },
+        "slug": ["default"],
+        "fileName": "default.md",
+        "name": "Vannaravuth Yo",
+        "avatar": "/static/images/ravuthz.jpg",
+        "occupation": "Senior Developer",
+        "company": "IFL",
+        "email": "ravuthz@gmail.com",
+        "github": "https://github.com/ravuthz",
+        "twitter": "https://twitter.com/Vutyo",
+        "linkedin": "https://www.linkedin.com/in/vannaravuth-yo",
+        "date": null
+      }
+    ],
+    "prev": {
+      "title": "Python Dependency Management Tools",
+      "date": "2021-12-22T06:34:16.000Z",
+      "draft": false,
+      "featured": false,
+      "categories": ["Python", "Dependency Management Tools"],
+      "series": ["Python Series"],
+      "tags": ["Python", "Dependency", "Management", "Tools"],
+      "summary": "Using Peotry for Python Dependency Management",
+      "slug": "python/python-dependency-management-tools"
+    },
+    "next": {
+      "title": "NextJs Create Blog Post with Starter Template",
+      "date": "2021-12-30T02:26:37.018Z",
+      "tags": ["NextJs", "Blog", "Tailwind"],
+      "draft": false,
+      "summary": "Create NextJs Blog Post with Tailwind NextJs Starter Blog",
+      "images": [],
+      "layout": "PostLayout",
+      "slug": "nextjs/nextjs-create-blog-post-with-starter-template"
+    }
+  },
+  "__N_SSG": true
+}

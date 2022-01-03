@@ -1,0 +1,24 @@
+
+  <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+      <title>Ravuthz Blog</title>
+      <link>https://ravuthz.github.io/blog</link>
+      <description>A blog created with Next.js and Tailwind.css</description>
+      <language>en-us</language>
+      <managingEditor>ravuthz@gmail.com (Ravuthz)</managingEditor>
+      <webMaster>ravuthz@gmail.com (Ravuthz)</webMaster>
+      <lastBuildDate>Wed, 22 Dec 2021 06:34:16 GMT</lastBuildDate>
+      <atom:link href="https://ravuthz.github.io/tags/management/feed.xml" rel="self" type="application/rss+xml"/>
+      
+  <item>
+    <guid>https://ravuthz.github.io/blog/python/python-dependency-management-tools</guid>
+    <title>Python Dependency Management Tools</title>
+    <link>https://ravuthz.github.io/blog/python/python-dependency-management-tools</link>
+    <description>Using Peotry for Python Dependency Management</description>
+    <pubDate>Wed, 22 Dec 2021 06:34:16 GMT</pubDate>
+    <author>ravuthz@gmail.com (Ravuthz)</author>
+    <category>Python</category><category>Dependency</category><category>Management</category><category>Tools</category>
+  </item>
+
+    </channel>
+  </rss>

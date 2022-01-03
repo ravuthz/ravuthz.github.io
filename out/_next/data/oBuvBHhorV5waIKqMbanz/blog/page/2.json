@@ -1,0 +1,84 @@
+{
+  "pageProps": {
+    "posts": [
+      {
+        "title": "NextJs Create Blog Post with Starter Template",
+        "date": "2021-12-30T02:26:37.018Z",
+        "tags": ["NextJs", "Blog", "Tailwind"],
+        "draft": false,
+        "summary": "Create NextJs Blog Post with Tailwind NextJs Starter Blog",
+        "images": [],
+        "layout": "PostLayout",
+        "slug": "nextjs/nextjs-create-blog-post-with-starter-template"
+      },
+      {
+        "title": "Linux File Download Cli",
+        "date": "2021-12-22T07:24:02.000Z",
+        "draft": false,
+        "featured": false,
+        "categories": ["Linux"],
+        "series": "Linux Series",
+        "tags": ["Linux", "wget"],
+        "summary": "Install and using wget in any Linux OS",
+        "slug": "linux/linux-file-download-cli"
+      },
+      {
+        "title": "Python Dependency Management Tools",
+        "date": "2021-12-22T06:34:16.000Z",
+        "draft": false,
+        "featured": false,
+        "categories": ["Python", "Dependency Management Tools"],
+        "series": ["Python Series"],
+        "tags": ["Python", "Dependency", "Management", "Tools"],
+        "summary": "Using Peotry for Python Dependency Management",
+        "slug": "python/python-dependency-management-tools"
+      },
+      {
+        "title": "Python 3.9",
+        "date": "2021-12-21T16:24:07.000Z",
+        "draft": false,
+        "featured": false,
+        "categories": ["Python"],
+        "series": "Python Series",
+        "tags": ["Python", "Python-3.9", "NewRealease"],
+        "summary": "What's new in Python 3.9?",
+        "slug": "python/python-3.9"
+      },
+      {
+        "title": "Js Tips",
+        "date": "2021-12-21T16:23:05.000Z",
+        "draft": false,
+        "featured": false,
+        "categories": ["JavaScript"],
+        "series": "JavaScript Series",
+        "tags": ["JavaScript", "Tips"],
+        "summary": "Some Tips for JavaScript",
+        "slug": "javascript/javascript-tips"
+      },
+      {
+        "title": "Welcome",
+        "date": "2021-12-21T04:15:51.000Z",
+        "draft": false,
+        "featured": true,
+        "categories": ["Site"],
+        "series": "Site Series",
+        "tags": ["Blog", "Site"],
+        "slug": "welcome"
+      }
+    ],
+    "initialDisplayPosts": [
+      {
+        "title": "Welcome",
+        "date": "2021-12-21T04:15:51.000Z",
+        "draft": false,
+        "featured": true,
+        "categories": ["Site"],
+        "series": "Site Series",
+        "tags": ["Blog", "Site"],
+        "slug": "welcome"
+      }
+    ],
+    "pagination": { "currentPage": 2, "totalPages": 2 }
+  },
+  "__N_SSG": true
+}
