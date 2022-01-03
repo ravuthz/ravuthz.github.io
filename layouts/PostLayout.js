@@ -7,6 +7,20 @@ import Tag from '@/components/Tag'
 import siteMetadata from '@/data/siteMetadata'
 import Comments from '@/components/comments'
 import ScrollTopAndComment from '@/components/ScrollTopAndComment'
+import {
+  FacebookShareButton,
+  FacebookIcon,
+  PinterestShareButton,
+  PinterestIcon,
+  RedditShareButton,
+  RedditIcon,
+  WhatsappShareButton,
+  WhatsappIcon,
+  LinkedinShareButton,
+  LinkedinIcon,
+  TelegramShareButton,
+  TelegramIcon,
+} from 'next-share'
 
 // const editUrl = (fileName) => `${siteMetadata.siteRepo}/blob/master/data/blog/${fileName}`
 const editUrl = (fileName) => `${siteMetadata.siteRepo}/blob/master/${fileName}`
@@ -19,6 +33,8 @@ const postDateTemplate = { weekday: 'long', year: 'numeric', month: 'long', day:
 
 export default function PostLayout({ frontMatter, authorDetails, next, prev, children }) {
   const { slug, fileName, date, title, tags } = frontMatter
+
+  const link = `${siteMetadata.siteUrl}/blog/${slug}`
 
   return (
     <SectionContainer>
@@ -135,6 +151,23 @@ export default function PostLayout({ frontMatter, authorDetails, next, prev, chi
                     )}
                   </div>
                 )}
+              </div>
+              <div className="pt-4 xl:pt-8 post-share-buttons">
+                <FacebookShareButton url={link}>
+                  <FacebookIcon size={32} round />
+                </FacebookShareButton>
+                <LinkedinShareButton url={link}>
+                  <LinkedinIcon size={32} round />
+                </LinkedinShareButton>
+                <PinterestShareButton url={link}>
+                  <PinterestIcon size={32} round />
+                </PinterestShareButton>
+                <WhatsappShareButton url={link}>
+                  <WhatsappIcon size={32} round />
+                </WhatsappShareButton>
+                <TelegramShareButton url={link}>
+                  <TelegramIcon size={32} round />
+                </TelegramShareButton>
               </div>
               <div className="pt-4 xl:pt-8">
                 <Link
