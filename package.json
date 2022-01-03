@@ -12,7 +12,7 @@
     "lint": "next lint --fix --dir pages --dir components --dir lib --dir layouts --dir scripts",
     "prepare": "husky install",
     "export": "npm run build && next export",
-    "deploy": "./scripts/deploy-github-pages.sh",
+    "deploy": "set NODE_OPTIONS=--max_old_space_size=4096 && ./scripts/deploy-github-pages.sh",
     "deploy-local": "set NODE_OPTIONS=--max_old_space_size=4096 && npm run export && serve out",
     "deploy-gh-pages": "npm run export && git add -f out && git commit -m \"Deploy to Github Pages\" && git subtree push --prefix out origin gh-pages",
     "new-post": "node ./scripts/compose.js"
