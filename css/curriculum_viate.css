@@ -1,0 +1,165 @@
+/* html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell,
+    Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+} */
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-bold {
+  font-weight: bold;
+}
+
+.text-italic {
+  font-style: italic;
+}
+
+.text-underline {
+  text-decoration: underline;
+}
+
+.title-wrapper {
+  text-align: center;
+}
+
+.address-wrapper {
+  width: 100%;
+  text-align: right;
+
+  /* display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  -webkit-align-content: stretch;
+  -ms-flex-line-pack: stretch;
+  align-content: stretch; */
+}
+
+.address {
+  text-align: right;
+  word-wrap: break-word;
+}
+
+.address > span::before {
+  content: '\A';
+  white-space: pre;
+}
+
+.photo {
+  margin-bottom: -1em;
+}
+
+.photo img {
+  width: 120px;
+  height: 155px;
+}
+
+.fullname {
+  font-weight: bold;
+}
+
+.section .title {
+  text-transform: uppercase !important;
+  text-decoration: underline;
+}
+
+.section > .list {
+  margin-left: 1em;
+  /* list-style-type: disc; */
+  /* list-style-type: circle; */
+  /* list-style-type: "🔔"; */
+
+  list-style: none;
+  /* margin-left: 0; */
+  /* padding-left: 1em; */
+  /* text-indent: -1em; */
+}
+
+.section .text {
+  margin-left: 2em;
+}
+
+.list-item {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+}
+
+.list-item .left {
+  flex: 0 0 auto;
+  width: 25%;
+  background-color: red;
+}
+
+.list-item .right {
+  flex: 0 0 auto;
+  width: 75%;
+  background-color: blue;
+}
+
+.list-item .right::before {
+  content: ': ';
+}
+
+.list-item .list {
+  list-style-type: disc;
+}
+
+/* Print Style */
+
+@media screen, print {
+}
+
+@media screen {
+  /* body {
+    margin: 0 auto;
+    width: 80%;
+  } */
+  /* .content-wrapper {
+    margin: 2em 0;
+    color: #000;
+  } */
+}
+
+@media print {
+  body {
+    margin: 0px;
+    color: #000;
+    background-color: #fff;
+    word-wrap: break-word;
+    font-family: georgia, times, serif;
+  }
+}
+
+@page {
+  size: 210mm 297mm;
+  margin: 27mm 16mm 27mm 16mm;
+}
+
+/* A4	8-1/4 x 11-3/4 in	210 x 297 mm	 21.0 x 29.7 cm */

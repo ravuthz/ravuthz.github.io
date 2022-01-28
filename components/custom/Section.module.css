@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap');
+
+.Container {
+  color: #212529;
+  font-size: 16px;
+  font-family: Roboto, 'Segoe UI', Tahoma, sans-serif;
+  /* font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell,
+    Fira Sans, Droid Sans, Helvetica Neue, sans-serif; */
+}
+
+.Container .h1,
+.Container h1 {
+  font-size: calc(1.375rem + 1.5vw);
+}
+
+.Container .h3,
+.Container h3 {
+  font-size: calc(1.1rem + 0.6vw);
+}
+
+.Container .h1,
+.Container .h2,
+.Container .h3,
+.Container .h4,
+.Container .h5,
+.Container .h6,
+.Container h1,
+.Container h2,
+.Container h3,
+.Container h4,
+.Container h5,
+.Container h6 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+.Photo {
+  margin-bottom: -1em;
+  width: 120px;
+  height: 155px;
+  display: inline-block;
+}
+
+.TitleContainer,
+.TitleWrapper {
+  text-align: center;
+}
+
+.AddressContainer {
+  display: flex !important;
+  justify-content: flex-end;
+  align-items: flex-end;
+  flex-direction: column;
+}
+
+.AddressContainer,
+.AddressWrapper {
+  width: 100%;
+  text-align: right;
+}
+
+.Address {
+  text-align: right;
+  word-wrap: break-word;
+}
+
+.Address > span::before {
+  content: '\A';
+  white-space: pre;
+}
+
+.SectionTitle {
+  text-transform: uppercase !important;
+  text-decoration: underline;
+  background-color: #bdc3c7;
+}
+
+.Section {
+  margin-top: 1em;
+}
+
+.Section > .list {
+  margin-left: 1em;
+  /* list-style-type: disc; */
+  /* list-style-type: circle; */
+  /* list-style-type: "🔔"; */
+
+  list-style: none;
+  /* margin-left: 0; */
+  /* padding-left: 1em; */
+  /* text-indent: -1em; */
+}
+
+.SectionText {
+  margin-left: 2em;
+}
+
+.ListItem {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  margin-left: 2em;
+}
+
+.ListItemLeft {
+  flex: 0 0 auto;
+  width: 25%;
+}
+
+.ListItemRight {
+  flex: 0 0 auto;
+  width: 75%;
+}
+
+.ListItemRight::before {
+  content: ': ';
+}
+
+.ListSubItem {
+  margin: 0;
+  padding: 0;
+  margin-left: 3em;
+  list-style-type: disc;
+}
+
+.FullName {
+  font-weight: bold;
+}

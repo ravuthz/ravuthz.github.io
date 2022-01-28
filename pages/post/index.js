@@ -1,7 +1,27 @@
 import SanityListLayout from '@/layouts/SanityListLayout'
+import { useEffect } from 'react'
 
 const Post = ({ posts }) => {
   console.log('posts: ', posts)
+
+  useEffect(() => {
+    fetch('https://api.github.com/repos/ravuthz/blog/contents')
+      .then((res) => res.json())
+      .then((result) => {
+        if (result && result.length > 0) {
+          const blog = result.find((item) => item.path == 'blog')
+          console.log({ blog })
+          if (blog) {
+            fetch(blog.url)
+              .then((res1) => res1.json())
+              .then((result1) => {
+                console.log({ result1 })
+              })
+          }
+        }
+      })
+  }, [])
+
   return <SanityListLayout posts={posts} initialDisplayPosts={[]} title="All Posts" />
 }
 

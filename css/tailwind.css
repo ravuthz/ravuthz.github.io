@@ -27,3 +27,25 @@ input:-webkit-autofill:focus {
 .post-share-buttons button {
   margin-right: 0.5em;
 }
+
+/* @import './curriculum_viate.css'; */
+
+/* @media screen, print {} */
+
+@media print {
+  header,
+  footer,
+  .hidden-print {
+    display: none !important;
+  }
+
+  main header,
+  .Container {
+    display: block !important;
+  }
+}
+
+@page {
+  size: 210mm 297mm;
+  margin: 27mm 16mm 27mm 16mm;
+}
