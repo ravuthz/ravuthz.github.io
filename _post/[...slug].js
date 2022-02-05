@@ -35,7 +35,20 @@ export const Post = ({ post, author }) => {
   )
 }
 
-export const getServerSideProps = async (pageContext) => {
+export async function getStaticPaths() {
+  return {
+    paths: [
+      {
+        params: {
+          slug: 'post',
+        },
+      },
+    ],
+    fallback: false,
+  }
+}
+
+export const getStaticProps = async (pageContext) => {
   const pageSlug = pageContext.query.slug
 
   if (!pageSlug) {

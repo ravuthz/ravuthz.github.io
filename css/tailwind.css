@@ -49,3 +49,11 @@ input:-webkit-autofill:focus {
   size: 210mm 297mm;
   margin: 27mm 16mm 27mm 16mm;
 }
+
+.dark article img {
+  border: 1px solid rgb(245 245 245 / var(--tw-text-opacity));
+}
+
+article img {
+  border: 1px solid rgb(23 23 23 / var(--tw-text-opacity));
+}

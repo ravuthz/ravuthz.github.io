@@ -25,7 +25,20 @@ const Post = ({ posts }) => {
   return <SanityListLayout posts={posts} initialDisplayPosts={[]} title="All Posts" />
 }
 
-export const getServerSideProps = async (pageContext) => {
+export async function getStaticPaths() {
+  return {
+    paths: [
+      {
+        params: {
+          slug: 'post',
+        },
+      },
+    ],
+    fallback: false,
+  }
+}
+
+export const getStaticProps = async (pageContext) => {
   const authorQuery = `author{"name":^->name,"slug":^->slug.current}`
   const categoryQuery = `categories[]{"title": ^->title,"slug":^->slug.current}`
   const query = encodeURIComponent(

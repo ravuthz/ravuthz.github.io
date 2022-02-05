@@ -1,8 +1,8 @@
 const siteMetadata = {
   title: 'Ravuthz Blog',
   author: 'Ravuthz',
-  headerTitle: 'RavuthzBlog',
-  description: 'A blog created with Next.js and Tailwind.css',
+  headerTitle: 'Ravuthz',
+  description: 'A simple blog created with Next.js and Tailwind.css',
   language: 'en-us',
   theme: 'dark', // system, dark or light
   siteUrl: 'https://ravuthz.github.io',
