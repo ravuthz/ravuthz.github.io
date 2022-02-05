@@ -1,0 +1,6 @@
+[submodule "data/blog"]
+	path = data/blog
+	url = https://github.com/ravuthz/blog.git
+[submodule "public/images"]
+	path = public/images
+	url = https://github.com/ravuthz/images.git

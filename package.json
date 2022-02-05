@@ -15,7 +15,7 @@
     "analyze": "cross-env ANALYZE=true next build",
     "lint": "next lint --fix --dir pages --dir components --dir lib --dir layouts --dir scripts",
     "prepare": "husky install",
-    "export": "npm run build && next export && echo '' > out/.nojekyll",
+    "export": "npm run build && type out/.nojekyll && next export",
     "deploy": "set NODE_OPTIONS=--max_old_space_size=4096 && npm run export && gh-pages -d out",
     "deploy1": "set NODE_OPTIONS=--max_old_space_size=4096 && ./scripts/deploy-github-pages.sh",
     "deploy-local": "set NODE_OPTIONS=--max_old_space_size=4096 && npm run export && serve out",
