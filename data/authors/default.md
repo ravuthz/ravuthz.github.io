@@ -8,6 +8,7 @@ company: IFL
 email: ravuthz@gmail.com
 github: https://github.com/ravuthz
 twitter: https://twitter.com/Vutyo
+telegram: https://t.me/ravuthz
 linkedin: https://www.linkedin.com/in/vannaravuth-yo
 ---
 
@@ -20,7 +21,7 @@ I'm **Vannaravuth Yo**. I'm a _senior developer_ at IFL.
 Technologies which I used:
 
 - FrontEnd
-  - Angular, React, Vue, jquery, bootstrap, ant-design, vuetify ...
+  - Angular, React, Vue, jQuery, Bootstrap, Ant-design, Vuetify ...
 - Backend
   - Java, Spring Boot, NodeJs, Express, KoaJs, PHP, Laravel, Codeignitor, ...
 - Database

@@ -13,6 +13,7 @@ const siteMetadata = {
   // image: 'https://gravatar.com/avatar/3f9ea148ade811b13cc6adac470463d6?s=400&d=robohash&r=x',
   socialBanner: '/static/images/twitter-card.png',
   email: 'ravuthz@gmail.com',
+  telegram: 'https://t.me/ravuthz',
   github: 'https://github.com/ravuthz',
   twitter: 'https://twitter.com/Vutyo',
   facebook: 'https://www.facebook.com/ravuthz',
@@ -23,7 +24,7 @@ const siteMetadata = {
     // supports plausible, simpleAnalytics or googleAnalytics
     plausibleDataDomain: '', // e.g. tailwind-nextjs-starter-blog.vercel.app
     simpleAnalytics: false, // true or false
-    googleAnalyticsId: '', // e.g. UA-000000-2 or G-XXXXXXX
+    googleAnalyticsId: 'UA-78724724-1', // e.g. UA-000000-2 or G-XXXXXXX
   },
   newsletter: {
     // supports mailchimp, buttondown, convertkit, klaviyo
