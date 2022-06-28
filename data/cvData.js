@@ -8,6 +8,7 @@ const personInfo = {
     '#81, St. 53BT, Beuong Tumpun 2, Kbal Tumnub 3',
     'Khan Mean Chey, Phnom Penh, Cambodia.',
   ],
+  fullName: `${this.lastName} ${this.firstName}`,
 }
 
 const personData = [
@@ -50,44 +51,18 @@ const tranningCourses = [
 
 const workExperinces = [
   {
-    // Jan - June 2013
-    date: ['01-2013', '06-2013'],
-    position: 'Marketing Team Leader',
-    company: 'MetLaor Company',
-    description: 'Marketing Team Leader at <b>MetLaor Company</b>',
+    // June 2019 - Present
+    date: ['06-2019', ''],
+    position: 'Senior Developer',
+    company: 'i-Finance Leasing Plc',
+    description: 'Senior Developer at i-Finance Leasing Plc',
     children: [
-      'Test and find bugs in game',
-      'Test and find bugs in game',
-      'Lead the team to advertise the game',
-    ],
-  },
-  {
-    // Mar 2015 - Dec 2016
-    date: ['03-2015', '12-2016'],
-    position: 'Developer',
-    company: 'KOSIGN Co. Ltd',
-    description: 'Developer at KOSIGN Co. Ltd',
-    children: [
-      'Worked on Actions of Java Servlet',
-      'Worked on project using Java Servlet with MVC2 pattern',
-      'Maintenance the Java Servlet',
-      "Maintenance Jexframe (Company 's core System using Servlet with Javascript)",
-      'Using Bitbucket for source code version control',
-      'Worked Laravel and apply project with Laravel',
-    ],
-  },
-  {
-    // Dec 2016 - Mar 2018
-    date: ['12-2016', '03-2018'],
-    position: 'Java Developer',
-    company: 'GL Finance PLC',
-    description: 'Java Developer at GL Finance PLC',
-    children: [
-      'Develop on Java Spring, Vaadin, Hibernate Frameworks',
-      'Using GitHub for source code version control',
-      'Handle server hosting and deploy projects with tomcat and wildfly',
-      'Handle GIT merging source code',
-      'Handle Insurance System using Spring, Vaadin, Hibernate project',
+      'Developed core projects with Vaddin, defined core, share functions to developers',
+      'Developed backend projects with Spring Boot as REST API',
+      'Developed frontend projects with React, PWA',
+      'Research and develop projects related to Microservice',
+      'Deployed applications to AWS, docker, local server and apply CICD with Jenkin and Bitbucket Pipeline',
+      'Leading team to develop projects for company',
     ],
   },
   {
@@ -98,35 +73,57 @@ const workExperinces = [
     description: 'Senior Developer at SISKH',
     children: [
       'Maintenant SAP System',
-      'Develop project as VueJS framework',
-      'Develop project as ReactJS framework',
-      'Develop project as NodeJs Framework',
-      'Develop backend project as KoaJS',
+      'Developed project with VueJS framework',
+      'Developed project with ReactJS framework',
+      'Developed project with NodeJs Framework',
+      'Developed project with KoaJS',
       'Develop rest API as Java language and spring framework',
     ],
   },
   {
-    // June 2019 - Present
-    date: ['06-2019', ''],
-    position: 'Senior Developer',
-    company: 'i-Finance Leasing Plc',
-    description: 'Senior Developer at i-Finance Leasing Plc',
+    // Dec 2016 - Mar 2018
+    date: ['12-2016', '03-2018'],
+    position: 'Java Developer',
+    company: 'GL Finance PLC',
+    description: 'Java Developer at GL Finance PLC',
     children: [
-      'Develop core project with Vaddin, defined core, share functions to developers',
-      'Develop backend projects with Spring Boot as REST API',
-      'Develop frontend projects with React, PWA',
-      'Research and develop projects related to Microservice',
-      'Deploy applications to AWS, docker, local server and apply CICD with Jenkin and Bitbucket Pipeline',
-      'Leading a small team to develop core projects for company',
+      'Develop projects with technologies Java Spring, Vaadin, Hibernate Frameworks',
+      'Using GitHub for source code version control',
+      'Handle server hosting and deploy projects with tomcat and wildfly',
+      'Handle GIT merging source code',
+      'Handle Insurance System using Spring, Vaadin, Hibernate project',
     ],
   },
-].reverse()
+  {
+    // Mar 2015 - Dec 2016
+    date: ['03-2015', '12-2016'],
+    position: 'Developer',
+    company: 'KOSIGN Co. Ltd',
+    description: 'Developer at KOSIGN Co. Ltd',
+    children: [
+      'Worked on Actions of Java Servlet',
+      'Worked on Project using Java Servlet with MVC2 pattern',
+      'Maintenance the Java Servlet Project',
+      "Maintenance Jexframe (Company 's core System using Servlet with Javascript from Korea)",
+      'Using Bitbucket for source code version control',
+      'Worked Laravel and develop project with Laravel',
+    ],
+  },
+  {
+    // Jan - June 2013
+    date: ['01-2013', '06-2013'],
+    position: 'Marketing Team Leader',
+    company: 'MetLaor Company',
+    description: 'Marketing Team Leader at <b>MetLaor Company</b>',
+    children: ['Test and find bugs in game', 'Lead the team to advertise the game'],
+  },
+]
 
 const workSkills = [
-  ['Languages', 'Java, PHP, Python, Ruby, NodeJS, HTML, CSS, JS'],
+  ['Languages', 'Java, PHP, NodeJS, Python,HTML, CSS, JS'],
   [
     'Frameworks',
-    'Spring Boot, Laravel, Codeignitor, Phalcon, Rails, Angular, React, Vue, Bootstrap, AntDesign, Vuetify',
+    'Spring Boot, Laravel, Codeignitor, Phalcon, AngularJS, ReactJS, VueJS, Bootstrap, AntDesign, Vuetify',
   ],
   ['Databases', 'PostgreSQL, MySQL, MongoDB, SQLite, SQL Server'],
 ]
@@ -136,7 +133,7 @@ const languages = [
   ['English', 'Good'],
 ]
 
-const hobbies = `Play facebook, Listen music, Watch movie, Play computer's game`
+const hobbies = `Play social media, research new technologies, listen music, watch movie`
 
 module.exports = {
   personInfo,
