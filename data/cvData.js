@@ -1,7 +1,7 @@
 const personInfo = {
   firstName: 'Vannaravuth',
   lastName: 'Yo',
-  phone: '+855 96 457 7770',
+  phone: '+855964577770',
   email: 'ravuthz@gmail.com',
   position: 'Senior Developer',
   address: [
@@ -14,7 +14,7 @@ const personInfo = {
 const personData = [
   ['Sex', 'Male'],
   ['Nationality', 'Cambodian'],
-  ['Date of Birth', 'July, 02, 1990'],
+  ['Date of Birth', 'July 02 1990'],
   ['Place of Birth', 'Phnom Penh'],
   ['Marital Status', 'Married'],
 ]
@@ -51,8 +51,21 @@ const tranningCourses = [
 
 const workExperinces = [
   {
+    // Sep 2022 - Present
+    date: ['09-2022', ''],
+    position: 'Senior FullStack Developer',
+    company: 'Luma System',
+    description: 'Senior FullStack Developer at Luma System',
+    children: [
+      'Developed backend projects from scratch using nodejs, postgresql',
+      'Developed frontent projects using react and ant-design',
+      'Deployed applications to digitalocean with app platform and droplets',
+      'Maintaint exists applications',
+    ],
+  },
+  {
     // June 2019 - Present
-    date: ['06-2019', ''],
+    date: ['06-2019', '08-2022'],
     position: 'Senior Developer',
     company: 'i-Finance Leasing Plc',
     description: 'Senior Developer at i-Finance Leasing Plc',
@@ -126,6 +139,7 @@ const workSkills = [
     'Spring Boot, Laravel, Codeignitor, Phalcon, AngularJS, ReactJS, VueJS, Bootstrap, AntDesign, Vuetify',
   ],
   ['Databases', 'PostgreSQL, MySQL, MongoDB, SQLite, SQL Server'],
+  ['DevOps', 'Docker, Jenkins, CI/CD, AWS'],
 ]
 
 const languages = [

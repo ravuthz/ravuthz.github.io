@@ -3,8 +3,8 @@ name: Vannaravuth Yo
 # avatar: /static/images/avatar.png
 avatar: /static/images/ravuthz.jpg
 # avatar: https://gravatar.com/avatar/3f9ea148ade811b13cc6adac470463d6?s=400&d=robohash&r=x
-occupation: Senior Developer
-company: IFL
+occupation: Senior Fullstack Developer
+company: Luma System
 email: ravuthz@gmail.com
 github: https://github.com/ravuthz
 twitter: https://twitter.com/Vutyo
@@ -12,17 +12,21 @@ telegram: https://t.me/ravuthz
 linkedin: https://www.linkedin.com/in/vannaravuth-yo
 ---
 
-I'm **Vannaravuth Yo**. I'm a _senior developer_ at IFL.
+I'm **Vannaravuth Yo**. I'm a _senior fullstack developer_ at Luma System.
 
-- Working DevOps deploy and monitor all systems.
-- Leading a small team to develop core project for company.
-- Working on both frontend and backend
+- Developed backend projects from scratch using nodejs, postgresql
+- Developed frontent projects using react and ant-design
+- Deployed applications to digitalocean with app platform and droplets
+- Maintaint exists applications
+- Research and Development about GPS and Map
 
 Technologies which I used:
 
 - FrontEnd
-  - Angular, React, Vue, jQuery, Bootstrap, Ant-design, Vuetify ...
+  - React, Vue, Angular, jQuery, Bootstrap, Ant-design, Vuetify ...
 - Backend
-  - Java, Spring Boot, NodeJs, Express, KoaJs, PHP, Laravel, Codeignitor, ...
+  - NodeJs, NestJs, Express, KoaJs, Java, Spring Boot, PHP, Laravel, Codeignitor, ...
 - Database
   - PostgreSql, MySQL, MongoDB
+- DevOps
+  - Docker, Jenkins, CI/CD, AWS ...
