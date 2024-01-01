@@ -2,12 +2,11 @@
   "extends": "astro/tsconfigs/strict",
   "compilerOptions": {
     "strictNullChecks": true,
-    "baseUrl": "/Users/ravuthz/Projects/blog/astro-blog-tailwincss",
+    "baseUrl": ".",
     "paths": {
-      "@/*": [
-        "src/*"
-      ]
+      "@/*": ["src/*"]
     },
+    "isolatedModules": true,
     "jsx": "react-jsx",
     "jsxImportSource": "react"
   }
