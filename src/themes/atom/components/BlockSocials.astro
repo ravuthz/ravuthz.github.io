@@ -1,0 +1,57 @@
+---
+const { className, socialMedia } = Astro.props;
+
+const fontStyle = className || "text-2xl text-white hover:text-yellow";
+---
+
+<div
+  class="flex items-center justify-center pt-5 pl-2 sm:justify-start sm:pt-0"
+>
+  {
+    !!socialMedia?.facebook && (
+      <a href={socialMedia.facebook}>
+        <i class:list={["bx bxl-facebook-square", fontStyle]} />
+      </a>
+    )
+  }
+
+  {
+    !!socialMedia?.telegram && (
+      <a href={socialMedia.telegram} class="pl-4">
+        <i class:list={["bx bxl-telegram", fontStyle]} />
+      </a>
+    )
+  }
+
+  {
+    !!socialMedia?.twitter && (
+      <a href={socialMedia.twitter} class="pl-4">
+        <i class:list={["bx bxl-twitter", fontStyle]} />
+      </a>
+    )
+  }
+
+  {
+    !!socialMedia?.dribbble && (
+      <a href={socialMedia.dribbble} class="pl-4">
+        <i class:list={["bx bxl-dribbble", fontStyle]} />
+      </a>
+    )
+  }
+
+  {
+    !!socialMedia?.linkedin && (
+      <a href={socialMedia.linkedin} class="pl-4">
+        <i class:list={["bx bxl-linkedin", fontStyle]} />
+      </a>
+    )
+  }
+
+  {
+    !!socialMedia?.instagram && (
+      <a href={socialMedia.instagram} class="pl-4">
+        <i class:list={["bx bxl-instagram", fontStyle]} />
+      </a>
+    )
+  }
+</div>

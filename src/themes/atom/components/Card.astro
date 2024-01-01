@@ -1,0 +1,27 @@
+---
+type Props = {
+  title: string;
+  image?: string;
+  description: string;
+  buttonText: string;
+};
+
+const { title, image, description, buttonText } = Astro.props;
+---
+
+<div class="card w-96 bg-base-100 shadow-xl">
+  {
+    image && (
+      <figure>
+        <img src={image} alt={title} />
+      </figure>
+    )
+  }
+  <div class="card-body">
+    {title && <h2 class="card-title">{title}</h2>}
+    <p>{description}</p>
+    <div class="card-actions justify-end">
+      <button class="btn btn-primary">{buttonText}</button>
+    </div>
+  </div>
+</div>

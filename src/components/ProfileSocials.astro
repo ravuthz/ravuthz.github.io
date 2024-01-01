@@ -1,0 +1,18 @@
+---
+import SocialIcon from "./SocialIcon.astro";
+
+const { mail, github, linkedin, telegram } = Astro.props;
+---
+
+<div class="flex flex-col items-center">
+  <div class="flex pt-6 space-x-3">
+    <SocialIcon
+      icon="mail"
+      link={mail ? `mailto:${mail}` : undefined}
+      label="mail"
+    />
+    <SocialIcon icon="github" link={github} label="github" />
+    <SocialIcon icon="linkedin" link={linkedin} label="linkedin" />
+    <SocialIcon icon="telegram" link={telegram} label="telegram" />
+  </div>
+</div>

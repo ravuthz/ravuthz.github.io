@@ -1,0 +1,38 @@
+---
+import { getCollection } from "astro:content";
+
+import { SITE_TITLE, SITE_DESCRIPTION } from "@/consts";
+
+import FormattedDate from "@/components/FormattedDate.astro";
+import PageLayout from "@/themes/atom/layouts/PageLayout.astro";
+
+const posts = (await getCollection("blog")).sort(
+  (a, b) => a.data.pubDate.valueOf() - b.data.pubDate.valueOf()
+);
+---
+
+<PageLayout title={SITE_TITLE} description={SITE_DESCRIPTION}>
+  <section class="py-10 mt-10">
+    <div class="grid grid-cols-3 gap-7">
+      {
+        posts.map((post) => (
+          <>
+            <div class="card shadow-xl w-full">
+              <figure>
+                <a href={`/blog/${post.slug}/`}>
+                  <img src={post.data.heroImage} alt={post.data.title} />
+                </a>
+              </figure>
+              <div class="card-body">
+                <h2 class="card-title">
+                  <a href={`/blog/${post.slug}/`}>{post.data.title}</a>
+                </h2>
+                <FormattedDate date={post.data.pubDate} />
+              </div>
+            </div>
+          </>
+        ))
+      }
+    </div>
+  </section>
+</PageLayout>
