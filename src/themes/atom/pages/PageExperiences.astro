@@ -1,9 +1,10 @@
 ---
 import WorkExperienceItem from "../components/WorkExperienceItem.astro";
 
-type Props = {
-  workExperiences: WorkExperience[];
-};
+// Skip type checking for this props
+// type Props = {
+//   workExperiences: WorkExperience[];
+// };
 
 const { workExperiences } = Astro.props;
 ---
@@ -26,7 +27,7 @@ const { workExperiences } = Astro.props;
     ></span>
 
     {
-      workExperiences?.map((experience) => (
+      workExperiences?.map((experience: WorkExperience) => (
         <WorkExperienceItem {...experience} />
       ))
     }

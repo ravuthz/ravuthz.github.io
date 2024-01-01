@@ -1,6 +1,11 @@
 ---
-import { SITE_TITLE, SITE_DESCRIPTION } from "@/consts";
-import { $profile } from "@/stores/profile.store";
+import {
+  SITE_TITLE,
+  SITE_DESCRIPTION,
+  personInfo,
+  socialMedia,
+  workExperiences,
+} from "@/consts";
 
 import PageLayout from "@/themes/atom/layouts/PageLayout.astro";
 import PageMain from "@/themes/atom/pages/PageMain.astro";
@@ -11,7 +16,6 @@ import PageExperiences from "@/themes/atom/pages/PageExperiences.astro";
 // import PageStatistics from "@/themes/atom/pages/PageStatistics.astro";
 // import PageBlog from "@/themes/atom/pages/PageBlog.astro";
 
-const { personInfo, socialMedia, workExperiences } = $profile.get();
 const { company, position } = workExperiences?.[0] || {};
 ---
 

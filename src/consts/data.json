@@ -1,0 +1,204 @@
+{
+  "personInfo": {
+    "firstName": "Vannaravuth",
+    "lastName": "Yo",
+    "image": "https://avatars.githubusercontent.com/u/11207890",
+    "phone": [
+      "+855964577770",
+      "+85599483343"
+    ],
+    "email": "ravuthz@gmail.com",
+    "position": "Senior Developer",
+    "address": [
+      "#81, 53BT, Beuong Tumpun 2",
+      "Khan Mean Chey",
+      "Phnom Penh, Cambodia"
+    ],
+    "googleMap": "https://goo.gl/maps/pcggRofMWusqrSsc6",
+    "sex": "Male",
+    "nationality": "Cambodian",
+    "dateOfBirth": "July 02 1990",
+    "placeOfBirth": "Phnom Penh",
+    "maritalStatus": "Married"
+  },
+  "educationBackground": [
+    {
+      "label": "Oct 2011 - 2015",
+      "value": "Graduated Bachelor Degree of Information Technology at Royal University of Phnom Penh"
+    },
+    {
+      "label": "Jun - Sep 2011",
+      "value": "Finished English Course at Cambodia International Cooperation Organization"
+    },
+    {
+      "label": "May - Aug 2011",
+      "value": "Finished Computer Course at Multi-Skill Computer Center"
+    },
+    {
+      "label": "2004 - 2010",
+      "value": "Passed High School at Chea Sim Santhormok High School"
+    },
+    {
+      "label": "1998 - 2004",
+      "value": "Passed Primary School at Santhormok Primary School"
+    }
+  ],
+  "tranningCourses": [
+    {
+      "type": "Bridging Courses",
+      "label": "Cambodia International Cooperation Institute, CICI",
+      "value": "Sentence Skill I, Academic Writing I, Special English Conversation I, Academic Writing II Sentence Skill II, Special English Conversation II"
+    },
+    {
+      "type": "Computer Courses",
+      "label": "Multi-Skill Computer Center",
+      "value": "MSCC Microsoft Office 2010 (Word, Excel, PowerPoint)"
+    },
+    {
+      "type": "Short Courses",
+      "label": "Cambodia International Cooperation Organization, CICO",
+      "value": "English Conversation Intermediate, Parts of Speech"
+    },
+    {
+      "type": "Short Courses",
+      "label": "Korea Software HRD Center",
+      "value": "IT Expert"
+    }
+  ],
+  "workExperiences": [
+    {
+      "date": [
+        "09-2022",
+        ""
+      ],
+      "position": "Senior FullStack Developer",
+      "company": "Luma System",
+      "description": "Senior FullStack Developer at Luma System",
+      "children": [
+        "Developed backend projects from scratch using nodejs, postgresql",
+        "Developed frontend projects using react and ant-design",
+        "Deployed applications to digitalocean with app platform and droplets",
+        "Maintaint exists applications",
+        "Research and Development about Map and GPS"
+      ]
+    },
+    {
+      "date": [
+        "06-2019",
+        "08-2022"
+      ],
+      "position": "Senior Developer",
+      "company": "i-Finance Leasing Plc",
+      "description": "Senior Developer at i-Finance Leasing Plc",
+      "children": [
+        "Developed core projects with Vaddin, defined core, share functions to developers",
+        "Developed backend projects with Spring Boot as REST API",
+        "Developed frontend projects with React, PWA",
+        "Research and develop projects related to Microservice",
+        "Deployed applications to AWS, docker, local server and apply CICD with Jenkin and Bitbucket Pipeline",
+        "Leading team to develop projects for company"
+      ]
+    },
+    {
+      "date": [
+        "03-2018",
+        "06-2019"
+      ],
+      "position": "Senior Developer",
+      "company": "SISKH",
+      "description": "Senior Developer at SISKH",
+      "children": [
+        "Maintenant SAP System",
+        "Developed project with VueJS framework",
+        "Developed project with ReactJS framework",
+        "Developed project with NodeJs Framework",
+        "Developed project with KoaJS",
+        "Develop rest API as Java language and spring framework"
+      ]
+    },
+    {
+      "date": [
+        "12-2016",
+        "03-2018"
+      ],
+      "position": "Java Developer",
+      "company": "GL Finance PLC",
+      "description": "Java Developer at GL Finance PLC",
+      "children": [
+        "Develop projects with technologies Java Spring, Vaadin, Hibernate Frameworks",
+        "Using GitHub for source code version control",
+        "Handle server hosting and deploy projects with tomcat and wildfly",
+        "Handle GIT merging source code",
+        "Handle Insurance System using Spring, Vaadin, Hibernate project"
+      ]
+    },
+    {
+      "date": [
+        "03-2015",
+        "12-2016"
+      ],
+      "position": "Developer",
+      "company": "KOSIGN Co. Ltd",
+      "description": "Developer at KOSIGN Co. Ltd",
+      "children": [
+        "Worked on Actions of Java Servlet",
+        "Worked on Project using Java Servlet with MVC2 pattern",
+        "Maintenance the Java Servlet Project",
+        "Maintenance Jexframe (Company 's core System using Servlet with Javascript from Korea)",
+        "Using Bitbucket for source code version control",
+        "Worked Laravel and develop project with Laravel"
+      ]
+    },
+    {
+      "date": [
+        "01-2013",
+        "06-2013"
+      ],
+      "position": "Marketing Team Leader",
+      "company": "MetLaor Company",
+      "description": "Marketing Team Leader at <b>MetLaor Company</b>",
+      "children": [
+        "Test and find bugs in game",
+        "Lead the team to advertise the game"
+      ]
+    }
+  ],
+  "workSkills": [
+    {
+      "label": "Languages",
+      "value": "Java, PHP, NodeJS, Python, HTML, CSS, JS"
+    },
+    {
+      "label": "Frameworks",
+      "value": "Spring Boot, Laravel, Codeignitor, Phalcon, ReactJS, VueJS, Bootstrap, AntDesign, Vuetify"
+    },
+    {
+      "label": "Databases",
+      "value": "PostgreSQL, MySQL, MongoDB, SQLite"
+    },
+    {
+      "label": "DevOps",
+      "value": "Docker, Jenkins, CI/CD, AWS"
+    }
+  ],
+  "languages": [
+    {
+      "label": "Khmer",
+      "value": "Mother Tongue"
+    },
+    {
+      "label": "English",
+      "value": "Good"
+    }
+  ],
+  "hobbies": [
+    "Play social media, research new technologies, listen music, watch movie"
+  ],
+  "socialMedia": {
+    "linkedin": "https://www.linkedin.com/in/vannaravuth-yo/",
+    "facebook": "https://www.facebook.com/ravuthz",
+    "telegram": "https://t.me/ravuthz",
+    "github": "https://github.com/ravuthz",
+    "twitter": "https://twitter.com/Vutyo"
+  }
+}

@@ -2,14 +2,15 @@
 import "@/styles/global.css";
 
 import { COPYRIGHT } from "@/consts";
-import { fetchProfile } from "@/utils";
 
 import PageHead from "../components/PageHead.astro";
 import PageMenu from "../components/PageMenu.astro";
 import BlockSocials from "../components/BlockSocials.astro";
 
+import { personInfo, socialMedia } from "@/consts/data.json";
+
 const { title, description } = Astro.props;
-const { personInfo, socialMedia } = await fetchProfile();
+// const { personInfo, socialMedia } = await fetchProfile();
 const { image } = personInfo;
 ---
 

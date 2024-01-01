@@ -6,19 +6,22 @@ import react from "@astrojs/react";
 import solidJs from "@astrojs/solid-js";
 import tailwind from "@astrojs/tailwind";
 import icon from "astro-icon";
+import node from "@astrojs/node";
 
 const { VITE_APP_BASE_URL } = import.meta.env;
 
 // https://astro.build/config
 export default defineConfig({
+  base: '/',
   site: VITE_APP_BASE_URL,
   image: {
     service: squooshImageService(),
-    remotePatterns: [{
-      protocol: 'https',
-      hostname: '**.githubusercontent.com',
-    }],
-
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "**.githubusercontent.com",
+      },
+    ],
   },
   integrations: [
     mdx(),
@@ -32,6 +35,9 @@ export default defineConfig({
       include: ["**/solid/*"],
     }),
     tailwind(),
-   
   ],
+  output: "hybrid",
+  adapter: node({
+    mode: "standalone",
+  }),
 });
