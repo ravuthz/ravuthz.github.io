@@ -8,7 +8,8 @@
     "prebuild": "bun run ./src/prebuild.ts",
     "build": "astro check && astro build",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "deploy:github": "gh-pages -d dist/client"
   },
   "dependencies": {
     "@astrojs/check": "^0.3.4",
@@ -35,6 +36,7 @@
     "daisyui": "^4.4.23",
     "dayjs": "^1.11.10",
     "fs-extra": "^11.2.0",
+    "gh-pages": "^6.1.1",
     "lucide-solid": "^0.303.0",
     "nanostores": "^0.9.5",
     "node-fetch": "^3.3.2",
