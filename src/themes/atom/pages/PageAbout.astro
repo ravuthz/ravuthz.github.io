@@ -11,7 +11,7 @@ const {
 } = Astro.props;
 ---
 
-<div class="bg-grey-50" id="about">
+<div class="" id="about">
   <div class="container flex flex-col items-center py-16 md:py-20 lg:flex-row">
     <div class="w-full text-center sm:w-3/4 lg:w-3/5 lg:text-left">
       <h2
@@ -19,13 +19,13 @@ const {
       >
         Who am I?
       </h2>
-      <h4
+      <span
         class="pt-6 font-header text-xl font-medium text-black sm:text-2xl lg:text-3xl"
       >
         I'm {firstName}
         {lastName}, a {position} based in {company}
-      </h4>
-      <p class="pt-6 font-body leading-relaxed text-grey-20">
+      </span>
+      <p class="pt-6 font-body leading-relaxed text-grey-100">
         {description}
       </p>
       <div
@@ -39,9 +39,12 @@ const {
             <i class="bx bx-chevron-right text-2xl text-primary"></i>
           </div>
         </div>
-        <BlockSocials className="text-2xl text-primary hover:text-green-700" socialMedia={socialMedia} />
-    </div>
-    <!-- <div class="w-full pl-0 pt-10 sm:w-3/4 lg:w-2/5 lg:pl-12 lg:pt-0">
+        <BlockSocials
+          className="text-2xl text-primary hover:text-yellow"
+          socialMedia={socialMedia}
+        />
+      </div>
+      <!-- <div class="w-full pl-0 pt-10 sm:w-3/4 lg:w-2/5 lg:pl-12 lg:pt-0">
       <div>
         <div class="flex items-end justify-between">
           <h4 class="font-body font-semibold uppercase text-black">
@@ -83,5 +86,6 @@ const {
         </div>
       </div>
     </div> -->
+    </div>
   </div>
 </div>

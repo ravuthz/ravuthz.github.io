@@ -9,7 +9,8 @@
     "build": "astro check && astro build",
     "preview": "astro preview",
     "astro": "astro",
-    "deploy:github": "gh-pages -d dist/client"
+    "github": "gh-pages -d dist/client -o io --nojekyll",
+    "gh-pages": "gh-pages"
   },
   "dependencies": {
     "@astrojs/check": "^0.3.4",
@@ -28,7 +29,7 @@
     "@tailwindcss/typography": "^0.5.10",
     "@types/react": "^18.2.45",
     "@types/react-dom": "^18.2.18",
-    "astro": "^4.0.7",
+    "astro": "^4.0.8",
     "astro-icon": "^1.0.1",
     "autoprefixer": "^10.4.16",
     "clsx": "^2.0.0",
@@ -42,7 +43,6 @@
     "node-fetch": "^3.3.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "sharp": "^0.33.1",
     "solid-icons": "^1.1.0",
     "solid-js": "^1.8.7",
     "tailwind-merge": "^2.2.0",

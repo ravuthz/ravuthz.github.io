@@ -6,9 +6,9 @@ const defaultTheme = require("tailwindcss/defaultTheme");
 // const primaryRgbaTo = "rgba(65, 47, 144, 0.90)";
 
 const yellow = "#f1c40f";
-const primary = "#2980b9";
-const primaryRgbaFrom = "rgba(41, 128, 185, 0.95)";
-const primaryRgbaTo = "rgba(52, 152, 219, 0.93)";
+const primary = "#3498db";
+const primaryRgbaFrom = "rgba(52, 152, 219, 0.95)";
+const primaryRgbaTo = "rgba(41, 128, 185, 0.90)";
 
 const atomTheme = {
   fontFamily: {
@@ -107,6 +107,7 @@ export default {
   theme: {
     extend: {
       ...atomTheme,
+      darkMode: false,
     },
   },
   plugins: [

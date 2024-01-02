@@ -1,4 +1,6 @@
 ---
+import { Image } from "astro:assets";
+
 import BlockSocials from "../components/BlockSocials.astro";
 
 const { firstName, lastName, image, socialMedia } = Astro.props;
@@ -7,7 +9,7 @@ const { firstName, lastName, image, socialMedia } = Astro.props;
 <div>
   <div
     class="relative bg-cover bg-center bg-no-repeat py-8"
-    style="background-image: url(/assets/img/bg-hero.jpg)"
+    style="background-image: url(/assets/img/bg-hero.webp)"
   >
     <div
       class="absolute inset-0 z-20 bg-gradient-to-r from-hero-gradient-from to-hero-gradient-to bg-cover bg-center bg-no-repeat"
@@ -19,7 +21,13 @@ const { firstName, lastName, image, socialMedia } = Astro.props;
     >
       <div class="flex flex-col items-center justify-center lg:flex-row">
         <div class="rounded-full border-8 border-primary shadow-xl">
-          <img src={image} class="h-48 rounded-full sm:h-56" alt="author" />
+          <Image
+            src={image}
+            class="rounded-full aspect-square h-48 w-48 sm:h-56 sm:w-56"
+            alt="author"
+            width={224}
+            height={224}
+          />
         </div>
         <div class="pt-8 sm:pt-10 lg:pl-8 lg:pt-0">
           <h1
@@ -31,8 +39,12 @@ const { firstName, lastName, image, socialMedia } = Astro.props;
           <div
             class="flex flex-col justify-center pt-3 sm:flex-row sm:pt-5 lg:justify-start"
           >
-            <div class="flex items-center justify-center pl-0 sm:justify-start md:pl-1">
-              <p class="font-body text-lg uppercase text-white">Let's connect</p>
+            <div
+              class="flex items-center justify-center pl-0 sm:justify-start md:pl-1"
+            >
+              <p class="font-body text-lg uppercase text-white">
+                Let's connect
+              </p>
               <div class="hidden sm:block">
                 <i class="bx bx-chevron-right text-3xl text-yellow"></i>
               </div>

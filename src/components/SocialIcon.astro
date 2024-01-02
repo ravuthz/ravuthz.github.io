@@ -1,5 +1,6 @@
 ---
-import SvgIcons from "./SvgIcons.astro";
+import { Icon } from "astro-icon/components";
+
 const { label, link, icon } = Astro.props;
 ---
 
@@ -12,7 +13,7 @@ const { label, link, icon } = Astro.props;
       href={link}
     >
       <span class="sr-only">{label}</span>
-      <SvgIcons name={icon} />
+      <Icon name={icon} />
     </a>
   )
 }

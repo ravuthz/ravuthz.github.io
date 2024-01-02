@@ -8,6 +8,8 @@ import tailwind from "@astrojs/tailwind";
 import icon from "astro-icon";
 import node from "@astrojs/node";
 
+// import { SITE_COLOR, SITE_TITLE, SITE_DESCRIPTION } from "./src/consts";
+
 const { VITE_APP_BASE_URL } = import.meta.env;
 
 // https://astro.build/config
