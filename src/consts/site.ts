@@ -25,14 +25,14 @@ export const MENU_ITEMS = [
         name: "Work",
         link: "#work"
     },
+    {
+        id: "blog",
+        name: "Blog",
+        link: "/blog"
+    },
     // {
     //     id: "statistics",
     //     name: "Statistics",
     //     link: "#statistics"
     // },
-    // {
-    //     id: "blog",
-    //     name: "Blog",
-    //     link: "#blog"
-    // }
 ];

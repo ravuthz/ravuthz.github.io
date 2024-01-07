@@ -55,7 +55,9 @@ const { image } = personInfo;
     x-data="navbar"
   >
     <div id="main" class="relative">
-      <div x-data="{ triggerNavItem(id) { $scroll(id) } }">
+      <div
+        x-data="{ triggerNavItem(id) { id.startsWith('#') ? $scroll(id) : window.location.href = id }}"
+      >
         <div class="w-full z-50 top-0 py-3 sm:py-5 absolute">
           <div class="container flex items-center justify-between">
             <div>
